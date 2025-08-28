@@ -1,0 +1,100 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+
+.header{
+    padding: 20px 40px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 4px;
+    position: fixed;
+    width: 100%;
+}
+
+.header img{
+    width: 80px;
+    height: 80px;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 900;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.task{
+    padding: 16px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    background: linear-gradient(#f0cdb8, #c0c2c0 );
+}
+
+.task p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.buttons{
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgb(136, 121, 109);
+    border-radius: 8px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    box-shadow: 2px 4px 0 #171a17;
+}
+
+.btn:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #3a3f3a;
+}
+
+.input{
+    width: 250px;
+    height: 40px;
+    padding: 16px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    background-color: inherit;
+    border: solid 1px black;
+}
+
+.code{
+    color: darkblue;
+}
+
+.answer{
+    margin-bottom: 20px;
+}
