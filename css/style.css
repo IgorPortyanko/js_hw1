@@ -14,6 +14,10 @@ ul li{list-style:none;}
 img{vertical-align:top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 
+html, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 120px;
